@@ -19,7 +19,6 @@
     body {
         background-image: url("/images/bible.webp");
         background-size: cover;
-        opacity: 0.6;
     }
 
     html{
@@ -41,6 +40,7 @@
     .savethedate{
         font-style: italic;
         font-weight: 300;
+        font-size: 1.5em;
     }
 
     a:not(.btn) {
