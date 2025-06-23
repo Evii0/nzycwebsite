@@ -17,12 +17,18 @@
     }
 
     body {
-        background-image: url("/images/bible.webp") fill;
+        background-image: url("/images/bible.webp");
+        background-size: cover;
         opacity: 0.6;
     }
 
     html{
         background: black;
+    }
+
+    .title{
+        font-size: 30em;
+        color: white;
     }
 
     a:not(.btn) {
