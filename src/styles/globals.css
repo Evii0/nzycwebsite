@@ -27,8 +27,20 @@
     }
 
     .title{
-        font-size: 30em;
+        font-size: 4em;
         color: white;
+        margin-top: 171px;
+        margin-bottom: 35px;
+    }
+
+    .subtitle{
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .savethedate{
+        font-style: italic;
+        font-weight: 300;
     }
 
     a:not(.btn) {
