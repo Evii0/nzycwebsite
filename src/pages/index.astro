@@ -1,16 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ContextAlert from '../components/ContextAlert.astro';
-import Markdown from '../components/Markdown.astro';
-
-const explainer = `
-Thursday, 2nd - Monday, 6th April`;
 ---
-<link rel="stylesheet" href="src/styles/index.css"> 
+
+<link rel="stylesheet" href="src/styles/index.css" />
 <Layout title="NZ Youth Conference">
     <ContextAlert class="mb-8" />
     <div class="flex items-center justify-center min-h-[50vh] mb-10 flex-col">
         <h1 class="title">NZYC 2026</h1>
-        <Markdown content={explainer} class="mb-10 text-lg text-center" />
+        <h2 class="subtitle">Coming Soon...</h2>
+        <p>Save the Date: <b>Wellington, 2-6 April 2026</b></p>
     </div>
 </Layout>
