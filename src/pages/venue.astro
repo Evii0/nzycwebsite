@@ -40,18 +40,25 @@ import Markdown from '../components/Markdown.astro';
         font-weight: 300;
         margin-bottom: 20px;
     }
+    h2 {
+        font-weight: 300;
+        text-align: center;
+    }
+    .title-section {
+        margin-bottom: 30px;
+    }
 </style>
 <Layout title="Venue">
-    <div class="row">
+    <div class="row title-section">
         <div class="col-sm-8 offset-sm-2 main">
             <div class="row">
                 <div class="col-sm-6">
                     <img src="/images/camp.jpg" />
                 </div>
                 <div class="col-sm-6">
-                    <h2 style="font-weight: 300; text-align:center">The venue for NZYC 2021 is Palm Grove Christian Holiday Camp in Paraparaumu.</h2>
+                    <h2>The venue for NZYC 2021 is Palm Grove Christian Holiday Camp in Paraparaumu.</h2>
                     <br />
-                    <h2 style="font-weight: 300; text-align:center">The capacity for the venue is 140 so book in fast!</h2>
+                    <h2>The capacity for the venue is 140 so book in fast!</h2>
                 </div>
             </div>
         </div>
@@ -71,6 +78,67 @@ import Markdown from '../components/Markdown.astro';
         </div>
     </div>
     <div class="row">
+        <div class="col-sm-8 offset-sm-2 main">
+            <h1>Photos</h1>
+            <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/gym.jpg" class="d-block w-100" alt="Gym / Hall" />
+                        <div class="carousel-caption">
+                            <h2>Gym / Hall</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/lounge.jpg" class="d-block w-100" alt="Lounge area" />
+                        <div class="carousel-caption">
+                            <h2>Lounge area</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/cabins.jpg" class="d-block w-100" alt="Cabins" />
+                        <div class="carousel-caption">
+                            <h2>Cabins</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/dining.jpg" class="d-block w-100" alt="Dining room" />
+                        <div class="carousel-caption">
+                            <h2>Dining room</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/chapel.jpg" class="d-block w-100" alt="Chapel" />
+                        <div class="carousel-caption">
+                            <h2>Chapel</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/pool.jpg" class="d-block w-100" alt="Pool" />
+                        <div class="carousel-caption">
+                            <h2>Pool</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/tyres.jpg" class="d-block w-100" alt="Onsite Activity" />
+                        <div class="carousel-caption">
+                            <h2>One of many onsite activities</h2>
+                            <p>See if you can beat Anders' time of 14 seconds up the tyre track!</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="row">
         <div class="col-sm-8 offset-sm-2 main">
             <h1>Photos</h1>
             <div class="row">
@@ -109,5 +177,5 @@ import Markdown from '../components/Markdown.astro';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </Layout>
