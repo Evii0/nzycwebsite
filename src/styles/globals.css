@@ -19,7 +19,6 @@
     body {
         background-image: url("/images/bible.jpg");
         background-size: cover;
-        opacity: 0.5;
     }
 
     html{
