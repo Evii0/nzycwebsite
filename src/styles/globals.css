@@ -25,6 +25,17 @@
         background: black;
     }
 
+    a{
+        color: white;
+    }
+
+    .header-item{
+        font-size: 1.3em;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+
     .title{
         font-size: 4em;
         color: white;
