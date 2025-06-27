@@ -11,6 +11,25 @@ const navItems = [
 ];
 ---
 
+<style>
+    .header-item {
+        color: #f3f3f3;
+        font-weight: 500;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .header-item:hover {
+        color: #ffffff; /* Change color on hover */
+    }
+
+    @media (min-width: 640px) {
+        .header-item {
+            padding: 0.5rem 1rem; /* Adjust padding for larger screens */
+        }
+    }
+</style>
+
 <nav class="flex flex-wrap items-center gap-4 pt-6 pb-16 sm:pt-12 sm:pb-24">
     <a href="/">
         <Logo />
