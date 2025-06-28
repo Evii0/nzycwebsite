@@ -36,24 +36,6 @@
         cursor: pointer;
     }
 
-    .title{
-        font-size: 4em;
-        color: white;
-        margin-top: 171px;
-    }
-
-    .subtitle{
-        font-size: 3em;
-        margin-bottom: 20px;
-    }
-
-    .savethedate{
-        font-style: italic;
-        font-weight: 300;
-        font-size: 1.5em;
-        margin-bottom: 35px;
-    }
-
     a:not(.btn) {
         @apply underline transition hover:opacity-80;
     }
